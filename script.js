@@ -20,3 +20,6 @@ function count() {
 
 console.log(count());
 console.log(newVariable)
+
+
+alert('Hello Anya')
