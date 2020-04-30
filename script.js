@@ -16,7 +16,7 @@ let newestVar = 25;
 
 function count() {
   return newVariable + newestVar;
-};
+}
 
 console.log(count());
-console.log(newVariable)
+console.log(newVariable);
