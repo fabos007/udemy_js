@@ -23,3 +23,8 @@ console.log(newVariable)
 
 
 alert('Hello Anya')
+
+let someText = '1';
+let someNumber = 10;
+console.log(someText);
+console.log(someNumber);
