@@ -64,18 +64,13 @@ function detectLevel (){
 detectLevel();
 
 function chooseOptExpenses (){
-  let optExpenses, optAmount;
+  let optExpenses;
   for (let i = 0; i < 3; i++){
-    optExpenses = prompt ('Enter optional expenses', '');
-    optAmount = prompt ('Enter amount', '');
-    if ((typeof(optExpenses)!= null) && (typeof(optAmount)!= null) && optExpenses != '' && optAmount != '' && optExpenses.length < 50 && optAmount.length < 10){
-      appData.optionalExpenses[optExpenses] = optAmount;
-    }else {
-      console.log('bad result');
-      i--;
+    optExpenses = prompt ('Enter optional expense', '');
+    appData.optionalExpenses[i] = optExpenses;
 
     }
-  }
+  
 }
 chooseOptExpenses();
 
